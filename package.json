@@ -1,0 +1,36 @@
+{
+  "name": "angulartics-google-tag-manager",
+  "version": "0.0.0",
+  "description": "Google Tag Manager plugin for Angulartics",
+  "keywords": [
+    "google",
+    "tag manager",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "contributors": [
+    "Jared Dickson <code@jareddickson.com>"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-google-tag-manager.js --compress --source-map dist/angulartics-google-tag-manager.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-google-tag-manager.min.js.map -o dist/angulartics-google-tag-manager.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angulartics/angulartics-google-tag-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-google-tag-manager/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/angulartics/angulartics-google-tag-manager",
+  "dependencies": {
+    "angulartics": "~0.20"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.5.0"
+  }
+}
