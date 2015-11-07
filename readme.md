@@ -81,8 +81,6 @@ _gaq.push(['_trackPageview']);
 8. Click the **Variables** tab in the left-side navigation.
 9. Scroll to the **User-Defined Variables** section at the bottom of the page and click the **Google Analytics Tracking ID - Angulartics** Variable. 
 10. Edit the Value field by clicking on the Variable and replace it with your companies Google Analytics Tracking ID (a.k.a. UA Number). Save your changes.
-11. *(Classic Only)* Edit the **Google Analytics Cookie Domain - Angulartics** Variable and change it's value to the domain where your app resides, sans any subdomain (e.g. www.angulartics.com becomes angulartics.com).
-
 
 #### Manual Installation
 
