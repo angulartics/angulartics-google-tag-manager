@@ -114,7 +114,7 @@ Naming and case must match.
 
 **2 Triggers**
 
-Name and case must match
+Name and case must match.
 
 * Name: **Angulartics events**
   * Event: **Custom Event**
@@ -124,6 +124,8 @@ Name and case must match
   * Event name: **content-view**
 
 **2 Tags**
+
+Name and case must match.
 
 * Name: **Angulartics Events**
   * Product: **Google Analytics**
@@ -176,7 +178,7 @@ Naming and case must match.
 
 **2 Triggers**
 
-Name and case must match
+Name and case must match.
 
 * Name: **Angulartics events**
   * Event: **Custom Event**
@@ -186,6 +188,8 @@ Name and case must match
   * Event name: **content-view**
 
 **2 Tags**
+
+Name and case must match.
 
 * Name: **Angulartics Events**
   * Product: **Google Analytics**
