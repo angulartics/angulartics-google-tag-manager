@@ -224,11 +224,11 @@ Universal Analytics, the newest version of Google Analytics, supports tracking u
 To configure User ID Tracking, set the $analyticsProvider.settings.ga.userId property to your provided User ID in the module configuration settings.
 
 ```javascript
-angular.module('angulartics.google.tagmanager', ['angulartics'])
+angular.module('myApp', ['angulartics', 'angulartics.google.tagmanager'])
   .config(['$analyticsProvider', function ($analyticsProvider) {
 
     $analyticsProvider.settings.ga = {
-      userId: null
+      userId: myUserIdValue
     };
 
     ...
@@ -238,7 +238,7 @@ angular.module('angulartics.google.tagmanager', ['angulartics'])
 Alternatively, you may set your User ID by calling $analytics.setUsername() and providing it your userId
 
 ```javascript
-$analytics.setUsername(userId);
+$analytics.setUsername(myUserIdValue);
 ```
 
 Additional documentation is available on the [Angulartics site](http://luisfarzati.github.io/angulartics).
