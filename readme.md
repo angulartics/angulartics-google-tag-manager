@@ -221,7 +221,7 @@ Universal Analytics, the newest version of Google Analytics, supports tracking u
 * The uid should be a completely anonymous value, and cannot be a username, or any personally identifiable information (PII); if PII is found in a property, the property will be completely destroyed. **This includes hashed email addresses**.
 * The uid parameter should only be set while the user is logged in; once logged out, it should not be set on any hits sent to Google Analytics
 
-To configure User ID Tracking, set the $analyticsProvider.settings.ga.userId property to your provided User ID in the module configuration settings.
+To configure User ID Tracking, set the `$analyticsProvider.settings.ga.userId` property to your provided User ID in the module configuration settings.
 
 ```javascript
 angular.module('myApp', ['angulartics', 'angulartics.google.tagmanager'])
@@ -235,7 +235,7 @@ angular.module('myApp', ['angulartics', 'angulartics.google.tagmanager'])
   }]);
 ```
     
-Alternatively, you may set your User ID by calling $analytics.setUsername() and providing it your userId
+Alternatively, you may set your User ID by calling `$analytics.setUsername()` and providing it your userId
 
 ```javascript
 $analytics.setUsername(myUserIdValue);
