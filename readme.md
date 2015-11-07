@@ -93,64 +93,64 @@ _gaq.push(['_trackPageview']);
 Naming and case must match.
 
 * Name: **angulartics page path**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **content-name**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **content-name**
 * Name: **angulartics event category**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **target**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **target**
 * Name: **angulartics event action**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **action**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **action**
 * Name: **angulartics event label**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **target-properties**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **target-properties**
 * Name: **angulartics event value**
-.* Macro Type: **Data Layer Variable**
-.* Data Layer Variable Name: **value**
+..* Macro Type: **Data Layer Variable**
+..* Data Layer Variable Name: **value**
 * Name: **angulartics event interaction type**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **interaction-type**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **interaction-type**
 * (OPTIONAL) **angulartics user id**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **userId**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **userId**
 
 **2 Triggers**
 
 Name and case must match
 
 * Name: **Angulartics events**
-.* Event: **Custom Event**
-.* Event name: **interaction**
+..* Event: **Custom Event**
+..* Event name: **interaction**
 * Name: **Angulartics pageviews**
-.* Event: **Custom Event**
-.* Event name: **content-view**
+..* Event: **Custom Event**
+..* Event name: **content-view**
 
 **2 Tags**
 
 * Name: **Angulartics Events**
-.* Product: **Google Analytics**
-.* Type: **Universal Analytics**
-.* Tracking ID: **YourGoogleAnalyticsID**
-.* Track Type: **Event**
-.* Category: **{{angulartics event category}}**
-.* Action: **{{angulartics event action}}**
-.* Label: **{{angulartics event label}}**
-.* Value: **{{angulartics event value}}**
-.* Non-Interaction Hit: **{{angulartics event interaction type}}**
-.* More settings > Fields to Set > name: **page**, value: **{{angulartics page path}}**
-.* More settings > Fields to Set > name: **cookieDomain**, value: **auto**
-.* More settings > Fields to Set > name: **userID**, value: **{{angulartics user id}}**
-.* Fire On: **Angulartics events**
+..* Product: **Google Analytics**
+..* Type: **Universal Analytics**
+..* Tracking ID: **YourGoogleAnalyticsID**
+..* Track Type: **Event**
+..* Category: **{{angulartics event category}}**
+..* Action: **{{angulartics event action}}**
+..* Label: **{{angulartics event label}}**
+..* Value: **{{angulartics event value}}**
+..* Non-Interaction Hit: **{{angulartics event interaction type}}**
+..* More settings > Fields to Set > name: **page**, value: **{{angulartics page path}}**
+..* More settings > Fields to Set > name: **cookieDomain**, value: **auto**
+..* More settings > Fields to Set > name: **userID**, value: **{{angulartics user id}}**
+..* Fire On: **Angulartics events**
 
 * Name: **Angulartics Pageviews**
-.* Product: **Google Analytics**
-.* Type: **Universal Analytics**
-.* Tracking ID: **YourGoogleAnalyticsID**
-.* Track Type: **Page View**
-.* More settings > Field to Set > name: **page**, value: **{{angulartics page path}}**
-.* More settings > Field to Set > name: **cookieDomain**, value: **auto**
-.* More settings > Fields to Set > name: **userID**, value: **{{angulartics user id}}**
-.* Fire On: **Angulartics pageviews**
+..* Product: **Google Analytics**
+..* Type: **Universal Analytics**
+..* Tracking ID: **YourGoogleAnalyticsID**
+..* Track Type: **Page View**
+..* More settings > Field to Set > name: **page**, value: **{{angulartics page path}}**
+..* More settings > Field to Set > name: **cookieDomain**, value: **auto**
+..* More settings > Fields to Set > name: **userID**, value: **{{angulartics user id}}**
+..* Fire On: **Angulartics pageviews**
 
 ##### Classic Analytics
 **6 Variables**
@@ -158,58 +158,58 @@ Name and case must match
 Naming and case must match.
 
 * Name: **angulartics page path**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **content-name**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **content-name**
 * Name: **angulartics event category**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **target**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **target**
 * Name: **angulartics event action**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **action**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **action**
 * Name: **angulartics event label**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **target-properties**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **target-properties**
 * Name: **angulartics event value**
-.* Macro Type: **Data Layer Variable**
-.* Data Layer Variable Name: **value**
+..* Macro Type: **Data Layer Variable**
+..* Data Layer Variable Name: **value**
 * Name: **angulartics event interaction type**
-.* Type: **Data Layer Variable**
-.* Data Layer Variable Name: **interaction-type**
+..* Type: **Data Layer Variable**
+..* Data Layer Variable Name: **interaction-type**
 
 **2 Triggers**
 
 Name and case must match
 
 * Name: **Angulartics events**
-.* Event: **Custom Event**
-.* Event name: **interaction**
+..* Event: **Custom Event**
+..* Event name: **interaction**
 * Name: **Angulartics pageviews**
-.* Event: **Custom Event**
-.* Event name: **content-view**
+..* Event: **Custom Event**
+..* Event name: **content-view**
 
 **2 Tags**
 
 * Name: **Angulartics Events**
-.* Product: **Google Analytics**
-.* Type: **Classic Analytics**
-.* Tracking ID: **YourGoogleAnalyticsID**
-.* Track Type: **Event**
-.* Category: **{{angulartics event category}}**
-.* Action: **{{angulartics event action}}**
-.* Label: **{{angulartics event label}}**
-.* Value: **{{angulartics event value}}**
-.* Non-Interaction Hit: **{{angulartics event interaction type}}**
-.* More settings > Basic Configuration > Virtual Page Path, value: **angulartics page path**
-.* More settings > Domains and Directories > Domain Name, value: **YourDomainName**
-.* Fire On: **Angulartics events**
+..* Product: **Google Analytics**
+..* Type: **Classic Analytics**
+..* Tracking ID: **YourGoogleAnalyticsID**
+..* Track Type: **Event**
+..* Category: **{{angulartics event category}}**
+..* Action: **{{angulartics event action}}**
+..* Label: **{{angulartics event label}}**
+..* Value: **{{angulartics event value}}**
+..* Non-Interaction Hit: **{{angulartics event interaction type}}**
+..* More settings > Basic Configuration > Virtual Page Path, value: **angulartics page path**
+..* More settings > Domains and Directories > Domain Name, value: **YourDomainName**
+..* Fire On: **Angulartics events**
 * Name: **Angulartics Pageviews**
-.* Product: **Google Analytics**
-.* Type: **Universal Analytics**
-.* Tracking ID: **YourGoogleAnalyticsID**
-.* Track Type: **Page View**
-.* More settings > Basic Configuration > Virtual Page Path, value: **angulartics page path**
-.* More settings > Domains and Directories > Domain Name, value: **YourDomainName**
-.* Fire On: **Angulartics pageviews**
+..* Product: **Google Analytics**
+..* Type: **Universal Analytics**
+..* Tracking ID: **YourGoogleAnalyticsID**
+..* Track Type: **Page View**
+..* More settings > Basic Configuration > Virtual Page Path, value: **angulartics page path**
+..* More settings > Domains and Directories > Domain Name, value: **YourDomainName**
+..* Fire On: **Angulartics pageviews**
 
 ## Documentation
 
