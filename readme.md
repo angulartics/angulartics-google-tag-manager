@@ -216,7 +216,7 @@ Name and case must match.
 ## Documentation
 
 ### User ID Tracking
-Universal Analytics, the newest version of Google Analytics, supports tracking users based of an ID that you provide. Typically, this ID is available after a user logs in to your application or service. Providing this ID allows Google Analytics to aggregate across multiple devices and browsers, providing a more holistic view of user interaction with your services. The (documentation)[https://support.google.com/analytics/answer/6205850?hl=en&ref_topic=3123660] can provide more insight into the benefits of using the User ID feature. It also stipulates the following:
+Universal Analytics, the newest version of Google Analytics, supports tracking users based of an ID that you provide. Typically, this ID is available after a user logs in to your application or service. Providing this ID allows Google Analytics to aggregate across multiple devices and browsers, providing a more holistic view of user interaction with your services. The [documentation](https://support.google.com/analytics/answer/6205850?hl=en&ref_topic=3123660) can provide more insight into the benefits of using the User ID feature. It also stipulates the following:
 * The uid parameter must be set on **every hit** sent to Google Analytics
 * The uid should be a completely anonymous value, and cannot be a username, or any personally identifiable information (PII); if PII is found in a property, the property will be completely destroyed. **This includes hashed email addresses**.
 * The uid parameter should only be set while the user is logged in; once logged out, it should not be set on any hits sent to Google Analytics
