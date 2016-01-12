@@ -1,6 +1,6 @@
 {
   "name": "angulartics-google-tag-manager",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Google Tag Manager plugin for Angulartics",
   "keywords": [
     "google",
@@ -27,8 +27,8 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/angulartics/angulartics-google-tag-manager",
-  "dependencies": {
-    "angulartics": "~0.20"
+  "peerDependencies": {
+    "angulartics": "^1.0.0"
   },
   "devDependencies": {
     "uglify-js": "^2.5.0"

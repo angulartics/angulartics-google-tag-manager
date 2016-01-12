@@ -1,6 +1,5 @@
 {
   "name": "angulartics-google-tag-manager",
-  "version": "0.0.0",
   "homepage": "https://github.com/angulartics/angulartics-google-tag-manager",
   "contributors": [
     "Jared Dickson <code@jareddickson.con>"
@@ -16,6 +15,6 @@
     "lib/index.js"
   ],
   "dependencies": {
-    "angulartics": "~0.20"
+    "angulartics": "^1.0.0"
   }
 }
