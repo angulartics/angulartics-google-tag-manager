@@ -38,7 +38,7 @@ bower install angulartics-google-tag-manager
 Add the `<script>` to your `index.html`:
 
 ```html
-<script src="/bower_components/angulartics-google-analytics/dist/angulartics-google-analytics.min.js"></script>
+<script src="/bower_components/angulartics-google-tag-manager/dist/angulartics-google-tag-manager.min.js"></script>
 ```
 
 Then add `angulartics.google.tagmanager` as a dependency for your app:
