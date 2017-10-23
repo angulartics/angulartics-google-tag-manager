@@ -305,7 +305,7 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "interaction"
+                                "value": "event"
                             }
                         ]
                     }
@@ -331,7 +331,7 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "content-view"
+                                "value": "pageview"
                             }
                         ]
                     }
@@ -444,7 +444,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "target"
+                        "value": "eventCategory"
                     },
                     {
                         "type": "INTEGER",
@@ -470,7 +470,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "interaction-type"
+                        "value": "nonInteraction"
                     },
                     {
                         "type": "INTEGER",
@@ -496,7 +496,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "target-properties"
+                        "value": "eventLabel"
                     },
                     {
                         "type": "INTEGER",
@@ -522,7 +522,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "value"
+                        "value": "eventValue"
                     },
                     {
                         "type": "INTEGER",
@@ -548,7 +548,7 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "content-name"
+                        "value": "page"
                     },
                     {
                         "type": "INTEGER",
