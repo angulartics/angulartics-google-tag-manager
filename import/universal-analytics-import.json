@@ -1,123 +1,46 @@
 {
-    "exportFormatVersion": 1.3,
-    "exportTime": "2015-11-07 02:19:53",
+    "exportFormatVersion": 2,
+    "exportTime": "2017-10-23 17:38:09",
     "containerVersion": {
+        "path": "accounts/69722640/containers/2338995/versions/9",
         "accountId": "28896164",
-        "containerId": "1554238",
-        "containerVersionId": "0",
-        "deleted": false,
+        "containerId": "2338995",
+        "containerVersionId": "9",
+        "name": "Angulartics Universal",
         "container": {
+            "path": "accounts/28896164/containers/2338995",
             "accountId": "28896164",
-            "containerId": "1554238",
+            "containerId": "2338995",
             "name": "Angulartics Universal",
             "publicId": "GTM-KB4VF3",
-            "timeZoneCountryId": "US",
-            "timeZoneId": "America/Los_Angeles",
-            "notes": "",
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1446862721829"
+            "fingerprint": "1508712875285",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/28896164/containers/2338995/workspaces?apiLink=container"
         },
         "tag": [
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "tagId": "9",
+                "containerId": "2338995",
+                "tagId": "15",
                 "name": "Angulartics Events",
                 "type": "ua",
-                "liveOnly": false,
                 "parameter": [
                     {
-                        "type": "BOOLEAN",
-                        "key": "enableEcommerce",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setTrackerName",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "doubleClick",
-                        "value": "false"
-                    },
-                    {
                         "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{Google Analytics Tracking ID - Angulartics}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkId",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventAction",
-                        "value": "{{angulartics event action}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "eventValue",
-                        "value": "{{angulartics event value}}"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "fieldsToSet",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "fieldName",
-                                        "value": "cookieDomain"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "auto"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "fieldName",
-                                        "value": "page"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{angulartics page path}}"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "fieldName",
-                                        "value": "userId"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "value",
-                                        "value": "{{angulartics user id}}"
-                                    }
-                                ]
-                            }
-                        ]
+                        "key": "nonInteraction",
+                        "value": "{{angulartics nonInteraction}}"
                     },
                     {
                         "type": "BOOLEAN",
                         "key": "useDebugVersion",
                         "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{angulartics eventCategory}}"
                     },
                     {
                         "type": "TEMPLATE",
@@ -126,39 +49,18 @@
                     },
                     {
                         "type": "TEMPLATE",
-                        "key": "nonInteraction",
-                        "value": "{{angulartics event interaction type}}"
+                        "key": "eventAction",
+                        "value": "{{angulartics eventAction}}"
                     },
                     {
                         "type": "TEMPLATE",
                         "key": "eventLabel",
-                        "value": "{{angulartics event label}}"
+                        "value": "{{angulartics eventLabel}}"
                     },
                     {
-                        "type": "TEMPLATE",
-                        "key": "eventCategory",
-                        "value": "{{angulartics event category}}"
-                    }
-                ],
-                "fingerprint": "0",
-                "firingTriggerId": [
-                    "13"
-                ],
-                "parentFolderId": "12",
-                "tagFiringOption": "ONCE_PER_EVENT"
-            },
-            {
-                "accountId": "28896164",
-                "containerId": "1554238",
-                "tagId": "10",
-                "name": "Angulartics Pageviews",
-                "type": "ua",
-                "liveOnly": false,
-                "parameter": [
-                    {
                         "type": "BOOLEAN",
-                        "key": "enableEcommerce",
-                        "value": "false"
+                        "key": "overrideGaSettings",
+                        "value": "true"
                     },
                     {
                         "type": "BOOLEAN",
@@ -167,7 +69,143 @@
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "useHashAutoLink",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventValue",
+                        "value": "{{angulartics eventValue}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "cookieDomain"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "auto"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "userId"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angulartics userId}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "appName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angulartics appName}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "page"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "angulart{{angulartics page}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "hostname"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angulartics hostname}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA Google Analytics}}"
+                    }
+                ],
+                "fingerprint": "1508712338745",
+                "firingTriggerId": [
+                    "21"
+                ],
+                "parentFolderId": "20",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "tagId": "16",
+                "name": "Angulartics Pageviews",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
                         "value": "false"
                     },
                     {
@@ -195,12 +233,12 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "fieldName",
-                                        "value": "page"
+                                        "value": "userId"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{angulartics page path}}"
+                                        "value": "{{angulartics userId}}"
                                     }
                                 ]
                             },
@@ -210,12 +248,42 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "fieldName",
-                                        "value": "userId"
+                                        "value": "page"
                                     },
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "{{angulartics user id}}"
+                                        "value": "{{angulartics page}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "hostname"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angulartics hostname}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "appName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angulartics appName}}"
                                     }
                                 ]
                             }
@@ -223,23 +291,8 @@
                     },
                     {
                         "type": "BOOLEAN",
-                        "key": "doubleClick",
+                        "key": "useHashAutoLink",
                         "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "useDebugVersion",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "decorateFormsAutoLink",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "trackingId",
-                        "value": "{{Google Analytics Tracking ID - Angulartics}}"
                     },
                     {
                         "type": "TEMPLATE",
@@ -248,25 +301,39 @@
                     },
                     {
                         "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
                         "key": "enableLinkId",
                         "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{UA Google Analytics}}"
                     }
                 ],
-                "fingerprint": "0",
+                "fingerprint": "1508712367599",
                 "firingTriggerId": [
-                    "14"
+                    "22"
                 ],
-                "parentFolderId": "12",
+                "parentFolderId": "20",
                 "tagFiringOption": "ONCE_PER_EVENT"
             }
         ],
-        "fingerprint": "0",
         "trigger": [
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "triggerId": "13",
-                "name": "Angulartics events",
+                "containerId": "2338995",
+                "triggerId": "21",
+                "name": "Angulartics event Trigger",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
                     {
@@ -280,19 +347,19 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "interaction"
+                                "value": "event"
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1442427532664",
-                "parentFolderId": "12"
+                "fingerprint": "1508709447712",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "triggerId": "14",
-                "name": "Angulartics pageviews",
+                "containerId": "2338995",
+                "triggerId": "22",
+                "name": "Angulartics pageview Trigger",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
                     {
@@ -306,39 +373,44 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "content-view"
+                                "value": "pageview"
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1442427532664",
-                "parentFolderId": "12"
+                "fingerprint": "1508709426720",
+                "parentFolderId": "20"
             }
         ],
         "variable": [
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "22",
-                "name": "Google Analytics Tracking ID - Angulartics",
+                "containerId": "2338995",
+                "variableId": "27",
+                "name": "UA Google Analytics",
                 "type": "c",
                 "parameter": [
                     {
                         "type": "TEMPLATE",
                         "key": "value",
-                        "value": "UA-XXXXXX-YY"
+                        "value": "UA-64498831-2"
                     }
                 ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
+                "fingerprint": "1508761893180",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "23",
-                "name": "angulartics event action",
+                "containerId": "2338995",
+                "variableId": "40",
+                "name": "angulartics appName",
                 "type": "v",
                 "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
                     {
                         "type": "BOOLEAN",
                         "key": "setDefaultValue",
@@ -347,24 +419,128 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "action"
+                        "value": "appName"
+                    }
+                ],
+                "fingerprint": "1508712089005",
+                "parentFolderId": "20"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "variableId": "32",
+                "name": "angulartics eventAction",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
                     },
                     {
                         "type": "INTEGER",
                         "key": "dataLayerVersion",
                         "value": "2"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventAction"
                     }
                 ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
+                "fingerprint": "1508710984308",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "24",
-                "name": "angulartics event category",
+                "containerId": "2338995",
+                "variableId": "33",
+                "name": "angulartics eventCategory",
                 "type": "v",
                 "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventCategory"
+                    }
+                ],
+                "fingerprint": "1508710952316",
+                "parentFolderId": "20"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "variableId": "35",
+                "name": "angulartics eventLabel",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventLabel"
+                    }
+                ],
+                "fingerprint": "1508711040007",
+                "parentFolderId": "20"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "variableId": "36",
+                "name": "angulartics eventValue",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventValue"
+                    }
+                ],
+                "fingerprint": "1508711082943",
+                "parentFolderId": "20"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "variableId": "39",
+                "name": "angulartics hostname",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
                     {
                         "type": "BOOLEAN",
                         "key": "setDefaultValue",
@@ -373,74 +549,69 @@
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "target"
-                    },
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
+                        "value": "hostname"
                     }
                 ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
+                "fingerprint": "1508709335554",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "25",
-                "name": "angulartics event interaction type",
+                "containerId": "2338995",
+                "variableId": "34",
+                "name": "angulartics nonInteraction",
                 "type": "v",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
                         "key": "setDefaultValue",
                         "value": "false"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
                     },
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "interaction-type"
-                    },
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
+                        "value": "nonInteraction"
                     }
                 ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
+                "fingerprint": "1508711130117",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "26",
-                "name": "angulartics event label",
+                "containerId": "2338995",
+                "variableId": "37",
+                "name": "angulartics page",
                 "type": "v",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
                         "key": "setDefaultValue",
                         "value": "false"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
                     },
                     {
                         "type": "TEMPLATE",
                         "key": "name",
-                        "value": "target-properties"
-                    },
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
+                        "value": "page"
                     }
                 ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
+                "fingerprint": "1508709170945",
+                "parentFolderId": "20"
             },
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "27",
-                "name": "angulartics event value",
+                "containerId": "2338995",
+                "variableId": "38",
+                "name": "angulartics userId",
                 "type": "v",
                 "parameter": [
                     {
@@ -449,79 +620,152 @@
                         "value": "false"
                     },
                     {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "value"
-                    },
-                    {
                         "type": "INTEGER",
                         "key": "dataLayerVersion",
                         "value": "2"
-                    }
-                ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
-            },
-            {
-                "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "28",
-                "name": "angulartics page path",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "name",
-                        "value": "content-name"
-                    },
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
-                    }
-                ],
-                "fingerprint": "0",
-                "parentFolderId": "12"
-            },
-            {
-                "accountId": "28896164",
-                "containerId": "1554238",
-                "variableId": "30",
-                "name": "angulartics user id",
-                "type": "v",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "setDefaultValue",
-                        "value": "false"
                     },
                     {
                         "type": "TEMPLATE",
                         "key": "name",
                         "value": "userId"
-                    },
-                    {
-                        "type": "INTEGER",
-                        "key": "dataLayerVersion",
-                        "value": "2"
                     }
                 ],
-                "fingerprint": "0"
+                "fingerprint": "1508709606393",
+                "parentFolderId": "20"
             }
         ],
         "folder": [
             {
                 "accountId": "28896164",
-                "containerId": "1554238",
-                "folderId": "12",
+                "containerId": "2338995",
+                "folderId": "20",
                 "name": "Angulartics",
-                "fingerprint": "1442427532662"
+                "fingerprint": "1508610507218"
             }
-        ]
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "28896164",
+                "containerId": "2338995",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            }
+        ],
+        "fingerprint": "1508763529893",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/28896164/containers/2338995/versions/9?apiLink=version"
     }
 }

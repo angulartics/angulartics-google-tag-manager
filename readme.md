@@ -92,22 +92,22 @@ Naming and case must match.
 
 * Name: **angulartics page path**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **content-name**
+  * Data Layer Variable Name: **page**
 * Name: **angulartics event category**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **target**
+  * Data Layer Variable Name: **eventCategory**
 * Name: **angulartics event action**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **action**
+  * Data Layer Variable Name: **eventAction**
 * Name: **angulartics event label**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **target-properties**
+  * Data Layer Variable Name: **eventLabel**
 * Name: **angulartics event value**
   * Macro Type: **Data Layer Variable**
-  * Data Layer Variable Name: **value**
+  * Data Layer Variable Name: **eventValue**
 * Name: **angulartics event interaction type**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **interaction-type**
+  * Data Layer Variable Name: **nonInteraction**
 * (OPTIONAL) **angulartics user id**
   * Type: **Data Layer Variable**
   * Data Layer Variable Name: **userId**
@@ -118,10 +118,10 @@ Name and case must match.
 
 * Name: **Angulartics events**
   * Event: **Custom Event**
-  * Event name: **interaction**
+  * Event name: **event**
 * Name: **Angulartics pageviews**
   * Event: **Custom Event**
-  * Event name: **content-view**
+  * Event name: **page**
 
 **2 Tags**
 
@@ -159,22 +159,22 @@ Naming and case must match.
 
 * Name: **angulartics page path**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **content-name**
+  * Data Layer Variable Name: **page**
 * Name: **angulartics event category**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **target**
+  * Data Layer Variable Name: **eventCategory**
 * Name: **angulartics event action**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **action**
+  * Data Layer Variable Name: **eventAction**
 * Name: **angulartics event label**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **target-properties**
+  * Data Layer Variable Name: **eventLabel**
 * Name: **angulartics event value**
   * Macro Type: **Data Layer Variable**
-  * Data Layer Variable Name: **value**
+  * Data Layer Variable Name: **eventValue**
 * Name: **angulartics event interaction type**
   * Type: **Data Layer Variable**
-  * Data Layer Variable Name: **interaction-type**
+  * Data Layer Variable Name: **nonInteraction**
 
 **2 Triggers**
 
@@ -182,10 +182,10 @@ Name and case must match.
 
 * Name: **Angulartics events**
   * Event: **Custom Event**
-  * Event name: **interaction**
+  * Event name: **event**
 * Name: **Angulartics pageviews**
   * Event: **Custom Event**
-  * Event name: **content-view**
+  * Event name: **page**
 
 **2 Tags**
 
