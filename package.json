@@ -1,6 +1,6 @@
 {
   "name": "angulartics-google-tag-manager",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Google Tag Manager plugin for Angulartics",
   "keywords": [
     "google",
