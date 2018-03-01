@@ -1,6 +1,6 @@
 {
   "name": "angulartics-google-tag-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Tag Manager plugin for Angulartics",
   "keywords": [
     "google",
@@ -10,7 +10,8 @@
     "angulartics"
   ],
   "contributors": [
-    "Jared Dickson <code@jareddickson.com>"
+    "Jared Dickson <code@jareddickson.com>",
+    "Dan Wilkerson <notdanwilkerson@gmail.com>"
   ],
   "main": "lib/index.js",
   "scripts": {
