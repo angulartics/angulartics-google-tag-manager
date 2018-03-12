@@ -253,14 +253,14 @@ npm run build
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/angulartics-google-analytics.svg
-[npm-url]: https://npmjs.org/package/angulartics-google-analytics
-[npm-downloads-image]: https://img.shields.io/npm/dm/angulartics-google-analytics.svg
-[npm-downloads-url]: https://npmjs.org/package/angulartics-google-analytics
-[bower-image]: https://img.shields.io/bower/v/angulartics-google-analytics.svg
-[bower-url]: http://bower.io/search/?q=angulartics-google-analytics
-[dep-status-image]: https://img.shields.io/david/angulartics/angulartics-google-analytics.svg
-[dep-status-url]: https://david-dm.org/angulartics/angulartics-google-analytics
+[npm-image]: https://img.shields.io/npm/v/angulartics-google-tag-manager.svg
+[npm-url]: https://npmjs.org/package/angulartics-google-tag-manager
+[npm-downloads-image]: https://img.shields.io/npm/dm/angulartics-google-tag-manager.svg
+[npm-downloads-url]: https://npmjs.org/package/angulartics-google-tag-manager
+[bower-image]: https://img.shields.io/bower/v/angulartics-google-tag-manager.svg
+[bower-url]: http://bower.io/search/?q=angulartics-google-tag-manager
+[dep-status-image]: https://img.shields.io/david/angulartics/angulartics-google-tag-manager.svg
+[dep-status-url]: https://david-dm.org/angulartics/angulartics-google-tag-manager
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: LICENSE
 [slack-image]: https://angulartics.herokuapp.com/badge.svg
